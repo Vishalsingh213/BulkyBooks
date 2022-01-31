@@ -105,7 +105,7 @@ namespace BulkyBookWeb.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index");//redirecting to the index file 
         }
     }
 }
